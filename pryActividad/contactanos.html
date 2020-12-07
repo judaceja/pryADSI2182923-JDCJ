@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="input-field col s12">
+                <i class="large material-icons">account_box</i>
+                <input id="Nombre" type="text" class="validate">
+                <label for="Nombre">Nombre Completo</label>
+            </div>
+            <div class="input-field col s12">
+                <i class="large material-icons">email</i>
+                <input id="Correo Electrónico" type="email" class="validate">
+                <label for="Correo Electrónico">Correo Electrónico</label> 
+            </div>
+            <div class="input-field col s12">
+                <i class="large material-icons">chrome_reader_mode</i>
+                <input id="Asunto" type="text" class="validate">
+                <label for="Asunto">Asunto</label> 
+            </div>
+            <form action="../../form-result.php" target="_blank">
+                <p>Mensaje para el interesado:</p>
+              
+                <p><textarea name="mensaje" placeholder=""></textarea></p>
+              
+                <p><input type="submit" value="Enviar mensaje"></p>
+              
+              </form>
+
+    <script src="js/materialize.min.js"></script>
+</body>
+
+</html>
